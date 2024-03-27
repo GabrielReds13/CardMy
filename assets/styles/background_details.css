@@ -1,0 +1,21 @@
+.-background-details {
+    display: flex;
+
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    z-index: -999;
+
+    background-image: url("../images/background/Bg-Detail.png");
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: 150%;
+}
+
+.-background-shadow {
+    width: 100%;
+    height: 100%;
+
+    background: linear-gradient(#00000090, #000000c7);
+}
