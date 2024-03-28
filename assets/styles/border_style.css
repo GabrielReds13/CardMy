@@ -1,0 +1,17 @@
+.-border {
+    border-style: none;
+    border: 0.3rem solid;
+    outline: none;
+}
+
+.-border-radius {
+    border-radius: 0.75rem;
+}
+
+.-border-color-red {
+    border-color: #CB3156;
+}
+
+.-border-color-gray {
+    border-color: #444248;
+}

@@ -1,0 +1,21 @@
+.-form {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+    align-items: center;
+
+    width: 475px;
+    height: 100%;
+
+    padding: 2rem;
+}
+
+.-card-image-preset {
+    background-color: #141414;
+
+    width: 35vh;
+    height: 35vh;
+
+    border-radius: 100%;
+}
