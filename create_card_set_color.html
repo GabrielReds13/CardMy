@@ -3,10 +3,10 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>CardMy - Home</title>
+        <title>CardMy - Criar Cartão</title>
         
         <!-- Style Import -->
-        <link rel="stylesheet" href="../assets/styles/style.css">
+        <link rel="stylesheet" href="./assets/styles/style.css">
 
         <!-- Font Import -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -35,13 +35,17 @@
 
                     <ul style="list-style: none; display: flex; flex-direction: row; justify-content: space-between; width: 100%;">
                         <li style="width: 100%;">
-                            <button id="cancelButton" class=".-button-v1 -white-text-color -text-normal -border -border-color-red -border-radius">Cancelar</button>
+                            <a href="./create_card_set_data.html" class="-remove-link-style">
+                                <button id="cancelButton" class=".-button-v1 -white-text-color -text-normal -border -border-color-red -border-radius">Voltar</button>
+                            </a>
                         </li>
 
                         <div class="-margin-left-rem"></div>
 
                         <li style="width: 100%;">
-                            <button id="confirmButton" class=".-button-v1 -white-text-color -text-normal -border -border-color-red -border-radius">Avançar</button>
+                            <a href="./card_view.html" class="-remove-link-style">
+                                <button id="confirmButton" class=".-button-v1 -white-text-color -text-normal -border -border-color-red -border-radius">Avançar</button>
+                            </a>
                         </li>
                     </ul>
                     
@@ -52,7 +56,7 @@
 
                 <!-- Card preview -->
                 <div class="-modal -border -border-color-gray -border-radius">
-                    <div id="userPhotoPreview" class="-card-user-photo" style="background-color: red; width: 100%; height: 100%;">
+                    <div id="userPhotoPreview" class="-card-user-photo -border-radius" style="background-color: #0E0D0D; width: 100%; height: 100%;">
                     </div>
 
                     <!-- Data -->
@@ -61,11 +65,11 @@
                             <h1 class="-white-text-color">User Name</h1>
                         </div>
     
-                        <p id="userBioPreview" class="-white-text-color -text-normal" style="align-self: start;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque, eligendi? Omnis delectus veniam, cumque voluptates mollitia, similique sint ipsa labore excepturi tempora sapiente neque distinctio consectetur facere debitis sed aliquam.</p>
+                        <p id="userBioPreview" class="-white-text-color -text-normal" style="align-self: start; margin-top: 1.4rem;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque, eligendi? Omnis delectus veniam, cumque voluptates mollitia, similique sint ipsa labore excepturi tempora sapiente neque distinctio consectetur facere debitis sed aliquam.</p>
                         
-                        <a href="" class="-remove-link-style" style="align-self: end;">
-                            <button id="instagramPreview">
-                                <img src="../assets/icons/Instagram_Icon.svg" alt="Instagram">
+                        <a href="" class="-remove-link-style" style="align-self: end; margin-top: auto;">
+                            <button id="instagramPreview" class="-border-radius -border -border-color-gray" style="background-color: #00000000;">
+                                <img src="./assets/icons/Instagram_Icon.svg" alt="Instagram">
                             </button>
                         </a>
                     </div>
