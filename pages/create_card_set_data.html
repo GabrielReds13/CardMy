@@ -22,12 +22,12 @@
         <!-- Content -->
         <main class="-container">
             <!-- Content Page -->
-            <div class="-content" style="justify-content: center; align-items: center; padding: 5%;">
+            <div class="-content" style="justify-content: center; align-items: center; padding: 0; padding-top: 5%; padding-bottom: 5%;">
                 <form action="" class="-form -border -border-color-gray -border-radius">
                     <div class="-card-image-preset -margin-bottom-rem -border -border-color-gray">
-                        <div>
-                            <img src="../assets/icons/Reload_Icon.svg" alt="Toggle photo">
-                        </div>
+                        <button id="togglePhoto">
+                            <img src="../assets/icons/Reload_Icon.svg" alt="Toggle Photo">
+                        </button>
                     </div>
 
                     <!-- Inputs -->
@@ -48,13 +48,17 @@
 
                     <ul style="list-style: none; display: flex; flex-direction: row; justify-content: space-between; width: 100%;">
                         <li style="width: 100%;">
-                            <button id="cancelButton" class=".-button-v1 -white-text-color -text-normal -border -border-color-red -border-radius">Cancelar</button>
+                            <a href="../index.html" class="-remove-link-style">
+                                <button id="cancelButton" class=".-button-v1 -white-text-color -text-normal -border -border-color-red -border-radius">Cancelar</button>
+                            </a>
                         </li>
 
                         <div class="-margin-left-rem"></div>
 
                         <li style="width: 100%;">
-                            <button id="confirmButton" class=".-button-v1 -white-text-color -text-normal -border -border-color-red -border-radius">Avançar</button>
+                            <a href="./create_card_set_color.html" class="-remove-link-style">
+                                <button id="confirmButton" class=".-button-v1 -white-text-color -text-normal -border -border-color-red -border-radius">Avançar</button>
+                            </a>
                         </li>
                     </ul>
                     

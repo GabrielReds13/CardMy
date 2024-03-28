@@ -11,8 +11,43 @@
     padding: 2rem;
 }
 
+.-modal {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+    align-items: center;
+
+    width: 550px;
+    height: 107.2%;
+
+    overflow: hidden;
+}
+
+.-modal .-card-user-photo {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.-data {
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-between;
+    align-items: center;
+    
+    width: 90%;
+    height: 100%;
+
+    padding-bottom: 2rem;
+}
+
 .-card-image-preset {
+    display: flex;
     background-color: #141414;
+
+    justify-content: end;
+    align-items: end;
 
     width: 35vh;
     height: 35vh;
