@@ -2,7 +2,6 @@
     color: #fff;
 }
 
-
 .-title-home {
     display: flex;
     flex-direction: column;
@@ -12,8 +11,17 @@
 
 .-subtitle {
     font-weight: normal;
+    font-size: 4vh;
 }
 .-title {
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 6vh;
+}
+
+.-text-normal {
+    font-size: 1.4vh;
+}
+
+.-remove-link-style {
+    text-decoration: none;
 }
