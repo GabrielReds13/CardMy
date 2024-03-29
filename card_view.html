@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>CardMy - Home</title>
+        <title>CardMy - Cartão</title>
         
         <!-- Style Import -->
         <link rel="stylesheet" href="./assets/styles/style.css">
@@ -16,32 +16,31 @@
     <body>
         <!-- Header -->
         <header class="-header">
-            
+           <img src="./assets/icons/Logo_Icon.svg" alt="CardMy - Logomarca" style="margin-left: 1%; height: 70%;"> 
         </header>
     
         <!-- Content -->
-        <main class="-container">
-            <!-- Content Page -->
-            <div class="-content" style="flex-direction: row-reverse; justify-content: center; align-items: center; padding: 0; padding-top: 5%; padding-bottom: 5%;">
-                <!-- Card -->
-                <div class="-modal -border -border-color-gray -border-radius">
-                    <div id="userPhotoFinal" class="-card-user-photo -border-radius" style="background-color: #0E0D0D; width: 100%; height: 100%;">
-                    </div>
+        <main class="-container" style="flex-direction: row; padding-top: 5%; padding-bottom: 2%;">
+            <div class="-modal -border -border-color-gray -border-radius">
+                <div class="-card-image-define">
+                </div>
 
-                    <!-- Data -->
-                    <div class="-data">
-                        <div id="userNameFinal" class="-border-radius" style="align-self: start; width: max-content; padding-left: 4%; padding-right: 4%; background-color: #CB3156;">
-                            <h1 class="-white-text-color">User Name</h1>
-                        </div>
-    
-                        <p id="userBioFinal" class="-white-text-color -text-normal" style="align-self: start; margin-top: 1.4rem;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque, eligendi? Omnis delectus veniam, cumque voluptates mollitia, similique sint ipsa labore excepturi tempora sapiente neque distinctio consectetur facere debitis sed aliquam.</p>
+                <div class="-data">
+                    <ul style="display: flex; flex-direction: column; list-style: none; width: 100%; height: max-content; padding: 5%;">
+                        <li>
+                            <h1 id="userNamePreview" class="-white-text-color" style=" background-color: #CD3FF6; width: max-content; padding-left: 1rem; padding-right: 1rem;">User Name</h1>
+                        </li>
                         
-                        <a href="" class="-remove-link-style" style="align-self: end; margin-top: auto;">
-                            <button id="instagramFinal" class="-border-radius -border -border-color-gray" style="background-color: #00000000;">
-                                <img src="./assets/icons/Instagram_Icon.svg" alt="Instagram">
-                            </button>
-                        </a>
-                    </div>
+                        <li>
+                            <p class="-text-normal -white-text-color" style="width: 90%; margin-top: 5%;">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam incidunt quisquam, harum eos nulla dolor et repellendus perferendis neque dicta assumenda mollitia quod similique, molestias voluptatum alias? At, assumenda amet.
+                            </p>
+                        </li>
+                    </ul>
+
+                    <a href="" id="instagramPreview" class="-border -border-color-gray -border-radius" style="margin-right: 5%;">
+                        <img src="./assets/icons/Instagram_Icon.svg" alt="">
+                    </a>
                 </div>
             </div>
         </main>

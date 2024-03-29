@@ -24,8 +24,21 @@ button {
 }
 
 #instagramPreview, #instagramFinal {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
     width: 50px;
     height: 50px;
+
+    justify-self: right;
+    align-self: self-end;
+}
+
+#instagramPreview img, #instagramFinal img {
+    width: 40%; 
+    height: 40%; 
 }
 
 #togglePhoto {
