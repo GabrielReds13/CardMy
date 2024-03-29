@@ -5,7 +5,8 @@
     justify-content: space-between;
     align-items: center;
 
-    width: 350px;
+    min-width: 350px;
+    width: 30%;
     height: 100%;
 }
 
@@ -16,14 +17,14 @@
     justify-content: space-between;
     align-items: center;
 
-    width: 350px;
+    min-width: 350px;
+    width: 30%;
     height: 100%;
 
     overflow: hidden;
 }
 
 .-modal .-card-user-photo {
-    width: 100%;
     margin-bottom: 2rem;
 }
 
