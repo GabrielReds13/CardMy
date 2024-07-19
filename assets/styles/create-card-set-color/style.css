@@ -1,0 +1,10 @@
+@import url("../style.css");
+.-set-align-items{
+    align-items: center;
+}
+
+@media (min-width: 1024px) {
+    .-set-align-items {
+        align-items: start;
+    }
+}
