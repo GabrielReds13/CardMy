@@ -44,7 +44,7 @@ body {
 
 .-container {
     display: flex;
-    
+
     align-items: center;
     justify-content: center;
 
@@ -60,7 +60,6 @@ body {
     height: min-content;
 
     justify-self: left !important;
-    align-self: self-start !important;
 
     margin-left: 10%;
 }
