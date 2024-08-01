@@ -11,8 +11,8 @@
     background-repeat: no-repeat;
 }
 .-background-details-dimension {
-    background-size: 200%;
-    background-position: 0%;
+    background-size: 300%;
+    background-position: 0;
 }
 
 .-background-shadow {
@@ -24,21 +24,21 @@
 
 @media (min-width: 380px) {
     .-background-details-dimension {
-        background-size: 150%;
-        background-position: -40%;
+        background-size: 250%;
+        background-position: 20vw;
     }
 }
 
 @media (min-width: 768px) {
     .-background-details-dimension {
-        background-size: 80%;
-        background-position: 160%;
+        background-size: 120%;
+        background-position: 40vw;
     }
 }
 
 @media (min-width: 1024px) {
     .-background-details-dimension {
-        background-size: 70%;
-        background-position: 140%;
+        background-size: 80%;
+        background-position: 50vw;
     }
 }

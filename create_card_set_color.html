@@ -20,11 +20,12 @@
         </header>
     
         <!-- Content -->
-        <main class="-container" style="width: 100%; height: 100%; padding-top: 100px;">
+        <main class="-container" style="width: 100%; height: 100%;">
             <div class="-set-align-items -break-in-column" style="display: flex; width: 80%; justify-content: center; gap: 5px;">
-                <div class="-modal -border -border-color-gray -border-radius">
+                <!-- Card -->
+                <div class="-modal -border -border-c-gray -border-radius">
                     <!-- Photo -->
-                    <div class="-card-image-define">
+                    <div id="userPhoto" class="-card-image-define">
                     </div>
     
                     <!-- Data -->
@@ -32,12 +33,12 @@
                         <ul style="display: flex; flex-direction: column; list-style: none; width: 100%; height: max-content; padding: 5%;">
                             <!-- Name -->
                             <li>
-                                <h2 id="userNamePreview" class="-white-text-color" style=" background-color: #CD3FF6; width: max-content; padding-left: 1rem; padding-right: 1rem;">User Name</h1>
+                                <h2 id="userNamePreview" class="-text-c-white" style=" background-color: #CD3FF6; width: max-content; padding-left: 1rem; padding-right: 1rem;">User Name</h1>
                             </li>
     
                             <!-- Bio -->
                             <li>
-                                <p id="userBioPreview" class="-text-normal -white-text-color" style="width: 90%; margin-top: 5%;">
+                                <p id="userBioPreview" class="-text-normal -text-c-white" style="width: 90%; margin-top: 5%;">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam incidunt quisquam, harum eos nulla dolor et repellendus perferendis neque dicta assumenda mollitia quod similique, molestias voluptatum alias? At, assumenda amet.
                                 </p>
                             </li>
@@ -52,27 +53,32 @@
     
                 <div style="width: 2%;"></div>
                 
-                <form action="./card_view.html" class="-form -border -border-color-gray -border-radius">
+                <!-- Form -->
+                <div class="-form -border -border-c-gray -border-radius">
     
                     <!-- Inputs -->
                     <div style="width: 90%; margin-top: 5%;">
                         <label for="insertColor" class="-text-normal">Cor do tema</label>
-                        <input type="text" id="insertBio" class="-input -margin-bottom-rem -border -border-color-red -border-radius -white-text-color -text-normal" placeholder="Lorem ipsum">
+                        <input type="text" id="insertBio" class="-input -margin-bottom-rem -border -border-c-theme -border-radius -white-text-color -text-normal" placeholder="Lorem ipsum">
                     </div>
     
                     <!-- Submit buttons -->
                     <ul id="submitButtons" style="list-style: none; display: flex; flex-direction: row; justify-content: space-between; width: 90%; margin-bottom: 5%;">
                         <li style="width: 100%;">
-                            <a href="./create_card_set_data.html" class="-remove-link-style">
-                                <button id="returnButton" class=".-button-v1 -white-text-color -text-normal -border -border-color-red -border-radius" style="background-color: #00000000;">Voltar</button>
+                            <a href="./create_card_set_data.html" class="-no-decoration">
+                                <button id="returnButton" class="-white-text-color -text-normal -border -border-c-theme -border-radius" style="background-color: #00000000;">
+                                    <span class="-text-c-white -text-normal">Voltar</span>
+                                </button>
                             </a>
                         </li>
     
                         <div style="width: 12%;"></div>
     
                         <li style="width: 100%;">
-                            <a href="./card_view.html" class="-remove-link-style">
-                                <button id="confirmButton" class=".-button-v1 -white-text-color -text-normal -border -border-color-red -border-radius">Concluir</button>
+                            <a href="./card_view.html" class="-no-decoration">
+                                <button id="confirmButton" class="-white-text-color -text-normal -border -border-color-red -border-radius">
+                                    <span class="-text-c-white -text-normal">Concluir</span>
+                                </button>
                             </a>
                         </li>
                     </ul>
@@ -80,5 +86,7 @@
                 </form>
             </div>
         </main>
+        
+        <script type="module" src="./js/main.js"></script>
     </body>
 </html>

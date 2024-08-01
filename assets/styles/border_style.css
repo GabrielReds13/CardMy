@@ -1,6 +1,8 @@
+@import url("./color_palette.css");
+
 .-border {
     border-style: none;
-    border: 0.1rem solid;
+    border: 0.14rem solid;
     outline: none;
 }
 
@@ -8,10 +10,14 @@
     border-radius: 0.75rem;
 }
 
-.-border-color-red {
-    border-color: #CB3156;
+.-border-c-theme {
+    border-color: var(--theme-color);
 }
 
-.-border-color-gray {
-    border-color: #444248;
+.-border-c-white {
+    border-color: var(--white-color);
+}
+
+.-border-c-gray {
+    border-color: var(--gray-color);
 }

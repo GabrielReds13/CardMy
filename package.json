@@ -1,0 +1,12 @@
+{
+  "name": "cardmy",
+  "version": "1.0.0",
+  "description": "Create by: Gabriel Guedes & Miguel Henrique",
+  "main": "./js/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gabriel Guedes & Miguel Henrique",
+  "license": "ISC",
+  "type": "module"
+}

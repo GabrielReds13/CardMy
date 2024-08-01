@@ -1,9 +1,10 @@
 /* Imports */
+@import url("./text_style.css");
+@import url("./color_palette.css");
 @import url("./button_style.css");
-@import url("./alt_text_style.css");
 @import url("./background_details.css");
 @import url("./margin.css");
-@import url("./form_style.css");
+@import url("./modal_style.css");
 @import url("./border_style.css");
 @import url("./input_style.css");
 @import url("./scrollbar.css");
@@ -23,7 +24,7 @@ body {
     width: 100vw;
     height: 100vh;
 
-    background-color: #141414;
+    background-color: var(--bg-color);
     overflow-x: hidden;
 }
 

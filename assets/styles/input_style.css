@@ -1,3 +1,5 @@
+@import url("./color_palette.css");
+
 .-input {
     box-sizing: border-box;
     width: 100%;
@@ -8,8 +10,16 @@
     padding-bottom: 5%;
 
     background-color: #00000000;
+
+    caret-color: var(--white-color);
 }
 
 label {
-    color: #CB3156;
+    color: var(--theme-color);
+}
+
+/* Cor do texto do autocomplete */
+.-input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 1000px var(--bg-color) inset !important;
+    -webkit-text-fill-color: var(--white-color) !important;
 }

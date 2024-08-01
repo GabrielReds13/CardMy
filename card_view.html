@@ -20,11 +20,11 @@
         </header>
     
         <!-- Content -->
-        <main class="-container" style="flex-direction: row; padding-top: 5%; padding-bottom: 2%;">
+        <main class="-container" style="flex-direction: row;">
             <div class="-container" style="display: flex; width: 80%; height: max-content;">
-                <div class="-modal -border -border-color-gray -border-radius">
+                <div class="-modal -border -border-c-gray -border-radius">
                     <!-- Photo -->
-                    <div class="-card-image-define">
+                    <div id="userPhoto" class="-card-image-define">
                     </div>
     
                     <!-- Data -->
@@ -32,12 +32,12 @@
                         <ul style="display: flex; flex-direction: column; list-style: none; width: 100%; height: max-content; padding: 5%;">
                             <!-- Name -->
                             <li>
-                                <h2 id="userNamePreview" class="-white-text-color" style=" background-color: #CD3FF6; width: max-content; padding-left: 1rem; padding-right: 1rem;">User Name</h1>
+                                <h2 id="userNamePreview" class="-text-c-white" style=" background-color: #CD3FF6; width: max-content; padding-left: 1rem; padding-right: 1rem;">User Name</h1>
                             </li>
     
                             <!-- Bio -->
                             <li>
-                                <p id="userBioPreview" class="-text-normal -white-text-color" style="width: 90%; margin-top: 5%;">
+                                <p id="userBioPreview" class="-text-normal -text-c-white" style="width: 90%; margin-top: 5%;">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam incidunt quisquam, harum eos nulla dolor et repellendus perferendis neque dicta assumenda mollitia quod similique, molestias voluptatum alias? At, assumenda amet.
                                 </p>
                             </li>
@@ -51,5 +51,7 @@
                 </div>
             </div>
         </main>
+
+        <script type="module" src="./js/main.js"></script>
     </body>
 </html>

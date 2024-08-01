@@ -20,13 +20,13 @@
         </header>
     
         <!-- Content -->
-        <main class="-container" style="width: 100%; height: 100%; padding-top: 100px;">
+        <main class="-container" style="width: 100%; height: 100%;">
             <div style="display: flex; width: 80%; justify-content: center; gap: 5px;">
                 <!-- Form -->
-                <form action="./create_card_set_color.html" class="-form -border -border-color-gray -border-radius">
+                <div class="-form -border -border-c-gray -border-radius">
                     <!-- Image -->
-                    <div class="-card-image-preset -border -border-color-gray" style="margin-top: 5%; min-width: 140px; min-height: 140px; max-width: 190px; max-height: 190px;">
-                        <div id="togglePhoto">
+                    <div id="userPhoto" class="-card-image-define" style="border-radius: 0.75rem 0.75rem 0 0; justify-content: end;">
+                        <div id="togglePhoto" style="margin-right: 5%; margin-top: 5%;">
                             <img src="./assets/icons/Reload_Icon.svg" alt="Toggle Photo">
                         </div>
                     </div>
@@ -34,32 +34,36 @@
                     <!-- Inputs -->
                     <div style="width: 90%;" >
                         <label for="insertUserName" class="-text-normal">Nome</label>
-                        <input type="text" id="insertUserName" class="-input -margin-bottom-rem -border -border-color-red -border-radius -white-text-color -text-normal" placeholder="Lorem ipsum">
+                        <input type="text" id="insertUserName" class="-input -margin-bottom-rem -border -border-c-theme -border-radius -text-c-white -text-normal" placeholder="Lorem ipsum">
                     </div>
                     
                     <div style="width: 90%;">
                         <label for="insertSocial" class="-text-normal">Instagram</label>
-                        <input type="text" id="insertSocial" class="-input -margin-bottom-rem -border -border-color-red -border-radius -white-text-color -text-normal" placeholder="Lorem ipsum">
+                        <input type="text" id="insertSocial" class="-input -margin-bottom-rem -border -border-c-theme -border-radius --text-c-white -text-normal" placeholder="Lorem ipsum">
                     </div>
                     
                     <div style="width: 90%;">
                         <label for="insertBio" class="-text-normal">Biografia</label>
-                        <input type="text" id="insertBio" class="-input -margin-bottom-rem -border -border-color-red -border-radius -white-text-color -text-normal" placeholder="Lorem ipsum">
+                        <input type="text" id="insertBio" class="-input -margin-bottom-rem -border -border-c-theme -border-radius --text-c-white -text-normal" placeholder="Lorem ipsum">
                     </div>
     
                     <!-- Submit buttons -->
                     <ul id="submitButtons" style="list-style: none; display: flex; flex-direction: row; justify-content: space-between; width: 90%; margin-bottom: 5%;">
                         <li style="width: 100%;">
-                            <a href="index.html" class="-remove-link-style">
-                                <button id="cancelButton" class=".-button-v1 -white-text-color -text-normal -border -border-color-red -border-radius">Cancelar</button>
+                            <a href="index.html" class="-no-decoration">
+                                <button id="cancelButton" class="-border -border-c-theme -border-radius">
+                                    <span class="-text-c-white -text-normal">Cancelar</span>
+                                </button>
                             </a>
                         </li>
     
                         <div style="width: 12%;"></div>
     
                         <li style="width: 100%;">
-                            <a href="./create_card_set_color.html" class="-remove-link-style">
-                                <button id="confirmButton" class=".-button-v1 -white-text-color -text-normal -border -border-color-red -border-radius">Avançar</button>
+                            <a href="./create_card_set_color.html" class="-no-decoration">
+                                <button id="confirmButton" class="-border -border-color-red -border-radius">
+                                    <span class="-text-c-white -text-normal">Avançar</span>
+                                </button>
                             </a>
                         </li>
                     </ul>
@@ -67,7 +71,7 @@
                 </form>
             </div>
         </main>
-    </body>
 
-    <script src="./scripts/js/toggle_page.js"></script>
+        <script type="module" src="./js/main.js"></script>
+    </body>
 </html>

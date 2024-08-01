@@ -1,0 +1,143 @@
+/* ###### Import ###### */
+@import url("./color_palette.css");
+
+/* ###### Title ###### */
+.-title-1 {
+    font-size: 4vh;
+    line-height: 80%;
+}
+    
+.-title-2 {
+    font-size: 3vh;
+    line-height: 90%;
+}
+    
+.-title-3 {
+    font-size: 2vh;
+    line-height: 100%;
+}
+
+/* ######  Text ###### */
+.-text-normal {
+    font-size: 1.5vh;
+}
+
+/* ###### Decoration ###### */
+.-weight-black {
+    font-weight: 1000 !important;
+}
+
+.-weight-bold {
+    font-weight: 800 !important;
+}
+
+.-weight-medium {
+    font-weight: 600 !important;
+}
+
+.-weight-normal {
+    font-weight: 400 !important;
+}
+
+.-weight-light {
+    font-weight: 200 !important;
+}
+
+.-no-decoration {
+    text-decoration: none;
+}
+
+.-italic {
+    font-style: italic;
+}
+
+::selection {
+    background-color: var(--transparent-theme-color);
+}
+
+/* ###### Colors ###### */
+.-text-c-white {
+    color: var(--white-color);
+}
+
+.-text-c-gray {
+    color: var(--gray-color);
+}
+
+.-text-c-theme {
+    color: var(--theme-color);
+}
+
+/* ###### Responsiveness ###### */
+
+/* Small */
+@media (min-width: 640px) {
+    /* ###### Title ###### */
+    .-title-1 {
+        font-size: 6vh;
+        line-height: 80%;
+    }
+        
+    .-title-2 {
+        font-size: 5vh;
+        line-height: 90%;
+    }
+        
+    .-title-3 {
+        font-size: 4vh;
+        line-height: 100%;
+    }
+    
+    /* ######  Text ###### */
+    .-text-normal {
+        font-size: 1.8vh;
+    }
+}
+
+/* Medium */
+@media (min-width: 640px) {
+    /* ###### Title ###### */
+    .-title-1 {
+        font-size: 6vh;
+        line-height: 80%;
+    }
+        
+    .-title-2 {
+        font-size: 5vh;
+        line-height: 90%;
+    }
+        
+    .-title-3 {
+        font-size: 4vh;
+        line-height: 100%;
+    }
+    
+    /* ######  Text ###### */
+    .-text-normal {
+        font-size: 1.8vh;
+    }
+}
+
+/* Large */
+@media (min-width: 640px) {
+    /* ###### Title ###### */
+    .-title-1 {
+        font-size: 6vh;
+        line-height: 80%;
+    }
+        
+    .-title-2 {
+        font-size: 5vh;
+        line-height: 90%;
+    }
+        
+    .-title-3 {
+        font-size: 4vh;
+        line-height: 100%;
+    }
+    
+    /* ######  Text ###### */
+    .-text-normal {
+        font-size: 1.8vh;
+    }
+}

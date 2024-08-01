@@ -1,3 +1,5 @@
+@import url("./color_palette.css");
+
 button {
     display: flex;
 
@@ -16,7 +18,7 @@ button {
 }
 
 #confirmButton {
-    background-color: #CB3156;
+    background-color: var(--theme-color);
 }
 
 #cancelButton {
@@ -47,11 +49,11 @@ button {
     align-items: center;
     justify-content: center;
 
-    width: 20%; 
-    height: 20%; 
-
     border-radius: 100%; 
-    background-color: #CB3156;
+    background-color: var(--theme-color);
+
+    width: 40px;
+    height: 40px;
 }
 
 #togglePhoto img {
