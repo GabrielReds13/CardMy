@@ -1,4 +1,4 @@
-const folderPath = "../../../assets/images/pictures"
+const folderPath = "../assets/images/pictures"
 
 const images = [
     {
